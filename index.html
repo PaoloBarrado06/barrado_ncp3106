@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>My First Website</title>
+        <style>
+
+            html{
+            scroll-behavior: smooth;
+            }
+
+            @font-face {
+                font-family: 'heavitas';
+                src: url(Gontserrat-Regular.ttf) format(truetype);
+            } 
+
+            @font-face {
+                font-family: 'akira';
+                src: url(Akira\ Expanded\ Demo.otf) format(truetype);
+            } 
+
+            @keyframes fadeIn {
+                from {
+                    opacity: 0;
+                    transform: translateY(-20px);
+                }
+                to {
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+            }
+            .fade-in-heading {
+                font-size: 2em;
+                color: black;
+                animation: fadeIn 2s ease-out;
+            }
+
+        </style>
+    </head>
+
+    <body style="margin: 0; padding: 0; overflow: hidden;" id="top" >
+        <header style="background: url('images/bg.png') no-repeat center center fixed; 
+        height: 700px; padding: 20px 20px 20px 20px; 
+        background-size: cover;
+        background-color: #2c2b2b;">
+            <h1 style="color: #ffffffdd;
+                height: 80px; 
+                padding-right: 20px;
+                text-align: right; 
+                font-size: 185px;
+                font-family: 'akira' ,sans-serif;"
+                class="fade-in-heading">
+                PAOLO
+                <a href="#bionote">
+                    <button
+                    style="background-color: #ffffffdd;
+                    color: #2c2b2b;
+                    position: relative; 
+                    top: -50px;
+                    right: 5px;
+                    padding: 40px 60px;
+                    margin-left: 700px;
+                    border: none;
+                    border-radius: 100px;
+                    cursor: pointer;
+                    font-family: 'akira' ,sans-serif;
+                    transition: background-color 0.3s ease, transform 0.3s ease-in;"
+                    onmouseover="this.style.backgroundColor='#f0f0f0';
+                    this.style.transform='scale(1.10)';"
+                    onmouseout="this.style.backgroundColor='#ffffffdd';
+                    this.style.transform='scale(1)';"
+                    >
+                    CLICK<br>FOR<br>MORE
+                </button>
+                </a>
+            </h1>
+            <h1 style="color: #ffffffdd;
+                padding-right: 210px;
+                text-align: right; 
+                font-size: 185px;
+                font-family: 'akira' ,sans-serif;"
+                class="fade-in-heading">
+                BARRAD
+            </h1>
+        
+        </header>
+        <section 
+            style="background: url('images/bg2.png') no-repeat center center fixed;
+                    height: 700px; 
+                    padding: 20px 20px 20px 20px; 
+                    background-size: cover;
+                    background-color: #1c1c1c;"
+                    id="bionote"> 
+        
+            <p style="color: #ffffffdd; 
+                text-align: justify; margin-left:60px; 
+                margin-right: 730px; 
+                font-size: 25px;
+                position: relative;
+                top: -30px;
+                font-family: 'heavitas' ,sans-serif;">
+                <br><br>
+                Paolo Bersabe Barrado, born on June 6, 2003, 
+                is a 21-year-old student currently pursuing 
+                a Bachelor of Science in Computer Engineering 
+                at the University of the East Manila. 
+                A graduate with honors of the Science, 
+                Technology, Engineering, and Mathematics 
+                (STEM) program at the same university in 2022, 
+                Paolo has demonstrated a strong foundation in his field.
+            </p>
+            <a href="#more">
+                <button style="background-color: #ffffffdd;
+                color: #2c2b2b;
+                position: relative;
+                top: 10px;
+                right: 640px;
+                padding: 20px 40px;
+                margin-left: 700px;
+                border: none;
+                border-radius: 10px;
+                cursor: pointer;
+                font-family: 'akira' ,sans-serif;
+                transition: background-color 0.3s ease, transform 0.3s ease-in;"
+                onmouseover="this.style.backgroundColor='#f0f0f0';
+                this.style.transform='scale(1.10)';"
+                onmouseout="this.style.backgroundColor='#ffffffdd';
+                this.style.transform='scale(1)';">
+                CLICK FOR MORE
+                </button>    
+            </a>
+    </section>
+    <section 
+            style="background: url('images/bg2.png') no-repeat center center fixed;
+                    height: 700px; 
+                    padding: 20px 20px 20px 20px; 
+                    background-size: cover;
+                    background-color: #1c1c1c;"
+                    id="more"> 
+        
+            <p style="color: #ffffffdd; 
+                text-align: justify; margin-left:60px; 
+                padding-top: 40px;
+                margin-right: 740px; 
+                font-size: 20px;
+                font-family: 'heavitas' ,sans-serif;">
+                In addition to his academic pursuits, 
+                Paolo holds the position of 
+                Vice President for Technical Operations 
+                for the Society of Computer Engineering 
+                Students (SCPES) and Vice President 
+                (Internal) for the Automation, Robotics, 
+                and Mechatronics Society, both at the 
+                University of the East Manila. 
+                His leadership roles within these organizations 
+                highlight his commitment to both technical 
+                excellence and community involvement.
+                <br><br>
+                Outside of school, Paolo enjoys playing 
+                bass guitar for the artist
+                <a 
+                    href="https://open.spotify.com/artist/1lFT4J66bALlo4lCHqIYzZ?si=4838b8fcb9a14410" 
+                    target="_blank" style="color: #ffffffdd;">Shane G
+                </a> 
+                , performing at gigs and concerts as her bassist. 
+                This hobby allows him to express his creativity 
+                and passion for music, showcasing his diverse talents and interests.
+            </p>
+            <a href="#top">
+                <button style="background-color: #ffffffdd;
+                color: #2c2b2b;
+                position: relative;
+                top: 10px;
+                right: 640px;
+                padding: 20px 40px;
+                margin-left: 700px;
+                border: none;
+                border-radius: 10px;
+                cursor: pointer;
+                font-family: 'akira' ,sans-serif;
+                transition: background-color 0.3s ease, transform 0.3s ease-in;"
+                onmouseover="this.style.backgroundColor='#f0f0f0';
+                this.style.transform='scale(1.10)';"
+                onmouseout="this.style.backgroundColor='#ffffffdd';
+                this.style.transform='scale(1)';">
+                BACK TO TOP
+                </button>
+            </a>
+            <p style="color: #ffffffdd; margin-left:60px; 
+                    margin-right: 800px;
+                    margin-top: 150px; 
+                    font-family: 'heavitas' ,sans-serif;
+                    font-size: 25px;">
+                    Link to my Socials
+            </p>
+            <a 
+                href="https://www.facebook.com/paolo.barrado/" target="_blank">
+                <img src="images/fb.png" 
+                style="width: 50px; 
+                height: auto; 
+                padding-left: 60px;">
+            </a>
+            <a 
+                href="https://www.instagram.com/paolobersabe/" target="_blank"><img src="images/ig.png" style="width: 50px; height: auto; padding-left: 25px;">
+            </a>
+    </section>
+</body>
+</html>     
